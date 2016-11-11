@@ -24,12 +24,20 @@ public class MainActivity extends AppCompatActivity {
         PrisButton button2 = PrisButton.newInstance();
         PrisButton button3 = PrisButton.newInstance();
         PrisButton button4 = PrisButton.newInstance();
+        PrisButton button5 = PrisButton.newInstance();
+        PrisButton button6 = PrisButton.newInstance();
+        PrisButton button7 = PrisButton.newInstance();
+        PrisButton button8 = PrisButton.newInstance();
         button1.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.mail_icon));
         button2.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.phone_white));
         button3.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.cart_white));
         button4.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.avtaar_white_icon));
-        setButtonsAction(button1,button2,button3,button4);
-        prisView.addButton(button1,button2,button3,button4);
+        button5.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.mail_icon));
+        button6.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.phone_white));
+        button7.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.cart_white));
+        button8.setIcon(BitmapFactory.decodeResource(getResources(),R.drawable.avtaar_white_icon));
+        setButtonsAction(button1,button2,button3,button4,button5,button6,button7,button8);
+        prisView.addButton(button1,button2,button3,button4,button5,button6,button7,button8);
 
 
     }
