@@ -47,5 +47,5 @@
   prismView.add(button1,button2,button3,....)
 ```
 
-![image](https://github.com/Anwesh43/FloatingPrismView/screenshots/prismview.gif " PrismView")
-![image](https://github.com/Anwesh43/FloatingPrismView/screenshots/prismviewwith8.gif "PrismView with 8 buttons")
+![image](https://raw.githubusercontent.com/Anwesh43/FloatingPrismView/master/screenshots/prismview.gif " PrismView")
+![image](https://raw.githubusercontent.com/Anwesh43/FloatingPrismView/master/screenshots/prismviewwith8.gif "PrismView with 8 buttons")
